@@ -4,6 +4,11 @@ re.match
 re.match.group
 re.search
 re.sub
+re.complie
+re.complie.match
+re.complie.search
+re.complie.findall
+
 
 文本去除空格标点符号之类的：
 import re
