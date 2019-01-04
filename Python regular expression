@@ -3,3 +3,12 @@ import re
 re.match
 re.match.group
 re.search
+re.sub
+
+文本去除空格标点符号之类的：
+import re
+temp = ''
+words_deleted = ''
+for i in words_delete:
+  temp = re.sub(i,'',temp)
+  
