@@ -8,6 +8,7 @@ re.complie
 re.complie.match
 re.complie.search
 re.complie.findall
+re.finditer
 
 
 文本去除空格标点符号之类的：
