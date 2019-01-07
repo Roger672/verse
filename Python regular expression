@@ -11,7 +11,7 @@ re.complie.findall
 re.finditer
 
 
-文本去除空格标点符号之类的：
+文本去除 空格 中文标点符号 ：
 import re
 temp = ''
 words_deleted = ''
@@ -25,3 +25,8 @@ temp = ''
 a = re.compile('（.*?）')
 b = a.sub('',temp)
 
+去除英文标点符号：
+import re
+temp = ''
+key = '[,.!\']'
+re.sub(ket,'',temp)
