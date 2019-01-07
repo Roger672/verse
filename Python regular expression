@@ -18,3 +18,10 @@ words_deleted = ''
 for i in words_delete:
   temp = re.sub(i,'',temp)
   
+ 
+正则表达式去除 中文 括号内的内容：
+import re
+temp = ''
+a = re.compile('（.*?）')
+b = a.sub('',temp)
+
