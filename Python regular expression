@@ -30,3 +30,11 @@ import re
 temp = ''
 key = '[,.!\']'
 re.sub(key,'',temp)
+
+把英文标点转为中文标点：
+def E_trans_to_C(string):
+    E_pun = u',.!?[]()<>"\''
+    C_pun = u'，。！？【】（）《》“‘'
+    table= {ord(f):ord(t) for f,t in zip(E_pun,C_pun)}
+    return string.translate(table)
+
