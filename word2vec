@@ -1,4 +1,5 @@
 #Initialize and train a Word2Vec model
+#每次训练得到的词向量模型是不同的，需要保存某一次的模型，这样在下一次使用的时候才不会出错。
 
 from gensim.models import Word2Vec
 sentence = [['','','',''],['','','','']]
