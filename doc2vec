@@ -5,6 +5,4 @@ sentence = [['','','',''],['','','','']]
 model = Word2Vec()
 
 Word2Vec参数：
-1.sentence
-2.size 词向量的维度，默认值为100.这个维度一般于我们的语料的大小相关，如果是不大的语料，比如小于100M的文本语料，则使用默认值就可以了。如果是超大的语料，建议增大维度。
-
+https://www.cnblogs.com/pinard/p/7278324.html
