@@ -38,3 +38,4 @@ def E_trans_to_C(string):
     table= {ord(f):ord(t) for f,t in zip(E_pun,C_pun)}
     return string.translate(table)
 
+join的用法
