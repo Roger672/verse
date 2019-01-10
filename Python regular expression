@@ -40,4 +40,4 @@ def E_trans_to_C(string):
 
 join的用法
 
-pandas中的describ
+pandas中的describe
