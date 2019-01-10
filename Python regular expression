@@ -39,3 +39,5 @@ def E_trans_to_C(string):
     return string.translate(table)
 
 join的用法
+
+pandas中的describ
