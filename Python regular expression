@@ -41,3 +41,8 @@ def E_trans_to_C(string):
 join的用法
 
 pandas中的describe
+
+bag of words
+LDA
+average word vector
+tfidf-weighting word vector
