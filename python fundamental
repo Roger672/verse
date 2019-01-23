@@ -1,2 +1,5 @@
 set
 列表生成式
+map
+from functools import reduce
+bytes.decode
