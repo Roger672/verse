@@ -4,3 +4,4 @@ map
 from functools import reduce
 bytes.decode
 filter
+strip
