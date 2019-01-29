@@ -6,3 +6,5 @@ bytes.decode
 filter
 strip
 lambda
+
+pandas io
