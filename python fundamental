@@ -15,3 +15,6 @@ pandas io
 反转字符串 
 str = 'asdaf'
 k = str[::-1]
+
+
+绝对值 abs()
