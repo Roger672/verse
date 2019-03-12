@@ -10,3 +10,8 @@ lambda
 pandas io
 
 解决pands to csv输出结果乱码问题：df.to_csv(file_name3,encoding="utf_8_sig")
+
+
+反转字符串 
+str = 'asdaf'
+k = str[::-1]
