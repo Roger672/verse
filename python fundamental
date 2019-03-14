@@ -60,3 +60,6 @@ def f(n):
     
     
  使用while
+ 
+ 
+ while和for循环的区别
