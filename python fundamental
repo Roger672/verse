@@ -58,3 +58,5 @@ def f(n):
         return 0
     return f(n-1) + f(n-2)
     
+    
+ 使用while
