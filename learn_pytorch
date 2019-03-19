@@ -1,1 +1,9 @@
 
+pytorch 中使用 nn.RNN 类来搭建基于序列的循环神经网络,它的构造函数有以下几个参数：
+nput_size：输入数据X的特征值的数目。 
+hidden_size：隐藏层的神经元数量，也就是隐藏层的特征数量。
+num_layers：循环神经网络的层数，默认值是 1。 
+bias：默认为 True，如果为 false 则表示神经元不使用 bias 偏移参数。
+batch_first：如果设置为 True，则输入数据的维度中第一个维度就 是 batch 值，默认为 False。默认情况下第一个维度是序列的长度， 第二个维度才是 - - batch，第三个维度是特征数目。
+dropout：如果不为空，则表示最后跟一个 dropout 层抛弃部分数据，抛弃数据的比例由该参数指定。
+RNN 中最主要的参数是 input_size 和 hidden_size，这两个参数务必要搞清楚。其余的参数通常不用设置，采用默认值就可以了。
