@@ -227,3 +227,6 @@ print(df4)
 
 result2 = pd.concat([df1,df4],join='inner',ignore_index=True)
 print(result2)
+
+为什么 a = np.empty((3,4))
+在b = np.ones((3,4))后面结果全是1啊？？？？？
