@@ -75,3 +75,10 @@ for i in k:
   
 
 for i in range(len(k)):
+
+
+
+
+splitlines
+lll = kkk.split(' ')
+oder = sorted(num, key= lambda x : x[1])
