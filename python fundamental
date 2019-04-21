@@ -82,3 +82,9 @@ for i in range(len(k)):
 splitlines
 lll = kkk.split(' ')
 oder = sorted(num, key= lambda x : x[1])
+
+
+print with color
+
+for i in k:
+    print('\033[31m', i)
