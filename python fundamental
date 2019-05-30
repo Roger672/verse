@@ -89,3 +89,6 @@ print with color
 for i in k:
     print('\033[31m', i)
 如果一个判断为真了，后面的也为真因此不要只用跏print都要离天色颜色
+
+a = [1,2,3,4]
+b = [i for i in a if i > 2]
