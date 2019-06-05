@@ -92,3 +92,5 @@ for i in k:
 
 a = [1,2,3,4]
 b = [i for i in a if i > 2]
+
+print('{} plus {} equals {}'.format(1, 2, 1+2))
