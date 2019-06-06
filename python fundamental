@@ -119,3 +119,6 @@ Name: c, dtype: int64
 [ 9 10 11 12]
 
 enumerate
+a = []
+for i, j in enumerate(a):
+    print(i, j)
