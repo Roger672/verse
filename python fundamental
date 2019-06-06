@@ -117,3 +117,5 @@ a  b   c
 3    12
 Name: c, dtype: int64
 [ 9 10 11 12]
+
+enumerate
