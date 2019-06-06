@@ -126,5 +126,6 @@ for i, j in enumerate(a):
 
 print('{}'.format())
 
+train是dataframe
 train.isnull().sum()
 train.isnull().sum().sum()
