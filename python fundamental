@@ -122,3 +122,6 @@ enumerate
 a = []
 for i, j in enumerate(a):
     print(i, j)
+
+
+print('{}'.format())
