@@ -125,3 +125,6 @@ for i, j in enumerate(a):
 
 
 print('{}'.format())
+
+train.isnull().sum()
+train.isnull().sum().sum()
