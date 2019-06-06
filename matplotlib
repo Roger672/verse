@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 5))
+plt.hist(train[cols[i]].values, bins=200)
+plt.title(cols[i])
+plt.xlabel('value')
+plt.ylabel('count')
+plt.show()
