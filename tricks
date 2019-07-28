@@ -1,1 +1,3 @@
 特征离散化
+under sampling:
+data = data.sample(frac=)
